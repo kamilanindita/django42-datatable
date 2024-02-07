@@ -4,17 +4,17 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='django-datatable',
-    version='0.3.1',
+    name='django32-datatable',
+    version='0.3.2',
     author='shymonk',
     author_email='hellojohn201@gmail.com',
-    url='https://github.com/shymonk/django-datatable',
+    url='https://github.com/kamilanindita/django42-datatable',
     description='A simple Django app to origanize data in tabular form.',
     long_description=open('README.rst').read(),
     packages=find_packages(exclude=['test*', 'example*']),
     include_package_data=True,
     zip_safe=False,
-    install_requires=["django>=1.5"],
+    install_requires=["django>=4.2"],
     license='MIT License',
     classifiers=[
         'Development Status :: 3 - Alpha',

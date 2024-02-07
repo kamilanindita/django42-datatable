@@ -5,6 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django42-datatable',
+    packages = ['table'],
     version='0.3.2',
     author='shymonk',
     author_email='hellojohn201@gmail.com',

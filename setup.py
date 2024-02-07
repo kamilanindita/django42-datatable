@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='django42-datatable',
+    name='django4-2-datatable',
     packages = ['table'],
     version='0.3.2',
     author='shymonk',
@@ -12,7 +12,6 @@ setup(
     url='https://github.com/kamilanindita/django42-datatable',
     description='A simple Django app to origanize data in tabular form.',
     long_description=open('README.rst').read(),
-    packages=find_packages(exclude=['test*', 'example*']),
     include_package_data=True,
     zip_safe=False,
     install_requires=["django>=4.2"],
